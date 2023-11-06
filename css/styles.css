@@ -1,0 +1,353 @@
+:root {
+    --IRIS: #4D5AE5;
+    --NAVY-BLUE: #2E2F42;
+    --WHITE: #FFF;
+    --SLATE: #434455
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/**header**/
+
+.logo {
+    color: var(--NAVY-BLUE);
+    font-family: 'Raleway';
+    font-size: 18px;
+    letter-spacing: 0.54px;
+}
+
+
+.logo span {
+    color: var(--IRIS);
+    letter-spacing: 0.54px;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+
+}
+
+.option {
+    color: var(--NAVY-BLUE);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.option:hover {
+    color: #4D5AE5;
+}
+
+.contact-list {
+    color: var(--SLATE);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+
+}
+/**Header Style**/
+.container {max-width: 1158px; padding: 0 15px;
+            margin: 0 auto; }
+.d-flex {
+        display: flex; 
+        align-items: center;
+        }
+.header {
+        justify-content: space-around; 
+        align-items: center;}
+.logo{
+        margin-right: 76px}
+.option-1 { 
+        display: flex; 
+        gap: 40px }
+.contact {
+        display: flex; 
+        gap: 40px; 
+        }
+/**End of Header style**/
+/**End of Header/
+
+/**Main Hero**/
+main {
+    font-family: 'Roboto';
+}
+
+.title {
+    background: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url("../images/people-office\ 1.jpg");
+    font-style: normal;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: center;
+    width: 1158px;
+    
+}
+
+h1 {
+    font-family: 'Roboto';
+    color: var(--WHITE);
+    font-size: 56px;
+    font-style: normal;
+    letter-spacing: 1.12px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+
+}
+
+button {
+    font-family: Roboto;
+    font-size: 16px;
+    background-color: var(--IRIS);
+    color: var(--WHITE);
+    font-weight: 500;
+    letter-spacing: 0.64px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    padding: 16px 32px;
+}
+
+h3 {
+    color: var(--NAVY-BLUE);
+    font-family: Roboto;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+    font-weight: 500;
+   
+}
+/**Hero style**/
+.strategies{padding-top: 50px;}
+.astronaut { 
+    width: 80px; 
+    text-align: center; 
+    height: 60px; 
+    padding: 20px 80px;
+    background-color: #f4f4fd;}
+.clock{ 
+    
+    width: 80px;
+    text-align: center;
+    height: 60px;
+    padding: 20px 80px;
+    background-color: #f4f4fd;}
+.diagram{ 
+    
+    width: 80px;
+    text-align: center;
+    height: 60px;
+    padding: 20px 80px;
+    background-color: #f4f4fd;}
+.antenna {
+    margin-left: 25px;
+    width: 80px;
+    text-align: center;
+    height: 60px;
+    padding: 20px 80px;
+    background-color: #f4f4fd;} 
+/** END HERE **/
+
+.group {
+    display: flex; 
+    justify-content: space-between;}
+.strategy h3 { margin: 0px;
+    padding-left: 50px; 
+    padding-bottom: 20px;}
+.strategy p { 
+    border: 0px; 
+    width: 264px; 
+    margin-left: 50px; 
+    margin-top: auto;}
+
+.punctuality h3 {
+    margin: 0px;
+    padding-left: 5px;
+    padding-bottom: 20px;
+}
+
+.punctuality p {
+    border: 0px;
+    width: 264px;
+    margin-left: 5px;
+    margin-top: auto;
+}
+
+.diligence h3 {margin: 0px;
+padding-left: 5px;
+padding-bottom: 20px;}
+
+.diligence p {
+    border: 0px;
+    width: 264px;
+    margin-left: 5px;
+    margin-top: auto;
+}
+.technologies h3 {
+    margin: 0px;
+    padding-left: 5px;
+    padding-bottom: 20px;
+}
+
+.technologies p {
+    border: 0px;
+    width: 264px;
+    margin-left: 5px;
+    margin-top: auto;}
+
+.list { width: 1158px;
+    display: flex;
+    justify-content: space-between;}
+
+.group-team-1 { 
+    display: flex; 
+    justify-content: space-around;
+    width: 1158px}
+
+.designer {display: grid;}
+.all-teams { 
+    background-color: #ffffff;
+    width : 240px;
+    }
+.all-teams h3 { 
+    display: flex;
+    justify-content: center; }
+.all-teams p {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+
+.our-team{ margin-top: 100px; padding-top: 100px;}
+
+.office-team {background-color: #f4f4fd; width: 1158px; height: 700px;}
+
+.strategy-1 {display: flex;
+    justify-content: space-evenly;}
+.teams-icon { 
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 25px;
+}
+
+.team-all-icons {
+    background-color: var(--IRIS);
+    padding: 12px;
+    border-radius: 50%;
+    display: flex;
+    fill: #f4f4fd;
+
+}
+
+
+
+/** Hero style end**/
+
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    color: var(--NAVY-BLUE);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+p {
+    font-family: 'Roboto';
+}
+
+
+body li {display: inline-flex; justify-content: space-between;}
+
+/**End of Main**/
+
+/**Customers styling**/
+
+.customer-icon {
+    border: 1px solid #8e8f99;
+    padding: 5px 15px ;
+    border-radius: 5%;
+}
+
+.customer-icon:hover,
+.customer-icon:focus{
+    border-color: var(--IRIS);
+}
+.customer-icon:hover svg,
+.customer-icon:focus svg{ 
+    fill: var(--IRIS);
+}
+
+.customer-team:hover,
+.customer-team:focus{
+    color: var(--IRIS);
+}
+.customer-team:hover svg,
+.customer-team:focus svg {fill: var(--IRIS)}
+
+.customers {
+    padding-bottom: 100px;
+}
+.customer-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section-title {
+    padding: 150px 0px 0px 0px;
+    margin: 0px;
+}
+
+/**Footer**/
+footer {
+    color: var(--WHITE);
+    background-color: var(--NAVY-BLUE);
+    width: 1158px;
+}
+
+.flow {
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.32px;
+    margin: 0px;
+}
+
+/**end  of footer**/
+
+/**Footer Style**/
+
+footer { margin-left: 15px;}
+.footer-logo { 
+    display: inline-block; 
+    margin-left: 100px; 
+    padding-top: 80px; 
+    padding-bottom: 80px;}
+
+.social-media {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.social {
+    background-color: var(--IRIS);
+    padding: 12px;
+    border-radius: 50%;
+    display: flex;
+    fill: #f4f4fd;
+}
+
+.team-media { display: inline-grid}
+.media {padding-left: 50px;}
+/**Footer end style**/
